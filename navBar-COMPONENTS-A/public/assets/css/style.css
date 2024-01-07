@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Chamar aqui Nome da fonte";
+    src: url(../fonts/caminho...);
+}
+
+
+@keyframes anima-key {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+}
+}
+
+body{
+    /*background-color: rgb(255, 255, 255);*/
+    background-color: rgb(22, 22, 22);
+    margin: auto;
+    background-image: linear-gradient(to right,rgb(247, 234, 234), rgb(251, 26, 26), rgb(0, 0, 0));
+    background-size: 500% 100%;
+    animation: anima-key 8s infinite alternate;
+}
+
+.body-image-body{
+    background-image: url(../image/caminho...);
+    background-attachment: fixed;
+}
+
+/*logo principal do site*/
+
+.LogoDoSite-Part1{
+    color: black;
+    font-family: "Chamar aqui Nome da fonte";
+    font-size: xx-large;
+}
+
+.LogoDoSite-Part2{
+    color: red;
+    font-family: "Chamar aqui Nome da fonte";
+    font-size: xx-large;
+}
+
+@media (max-width: 780px){
+    .textoLogo{
+        display: none;
+    }
+}
+
+/*social midias icons*/
+.menuiconsc img{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menuiconsc img:hover{
+    transition: .1s;
+    background-color: rgb(255, 50, 50);
+}
+
+.menuiconsc img:active{
+    background-color: greenyellow;
+}
+
+
+
+.font-menu-home{
+    font-family: "Chamar aqui Nome da fonte";
+}
+
+
+
